@@ -61,7 +61,7 @@ class SignIn extends Component {
 
       const resetAction = StackActions.reset({
         index: 0,
-        action: [
+        actions: [
           NavigationActions.navigate({ routeName: 'Home' })
         ]
       });
