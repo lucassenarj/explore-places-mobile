@@ -42,7 +42,8 @@ class SignIn extends Component {
   }
 
   handleCreateAccountPress = () => {
-    this.props.navigate('SignUp');
+    this.props.navigation.navigate('SignUp');
+    //NavigationActions.navigate({ routeName: 'SignUp' })
   }
 
   handleSignInPress = async () => {
